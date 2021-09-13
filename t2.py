@@ -171,3 +171,19 @@ if(primer_numero>segundo_numero):
     print("el primero es mayor que el segundo, la suma es: ", primer_numero+segundo_numero)
 if(primer_numero<segundo_numero):
     print("el segundo es mayor que el primero, la resta es: ", segundo_numero-primer_numero)"""
+
+"""10. Leer tres números diferentes e imprimir el número mayor de los 
+tres. """
+"""
+lista= []
+i=0
+b=0
+for b in range(3):
+    print("ingrese el valor del numero:", (b+1))
+    lista.append(int(input("")))
+mayor=lista[0]
+for i in range(len(lista)):
+    if (lista[i]>mayor):
+        mayor=lista[i]
+
+print("el numero mayor es: ", mayor) """

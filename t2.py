@@ -129,3 +129,31 @@ if (aparato>=2000):
 if (marca=="NOSY" or marca=="nosy"):
     aparato=aparato-(aparato*0.05)
 print("el total a pagar es de: ", aparato+(aparato*0.16))"""
+
+
+"""8. Una empresa quiere hacer una compra de varias piezas de la misma 
+clase  a  una  fábrica  de  refacciones.  La  empresa,  dependiendo  del 
+monto total de la compra, decidirá que hacer para pagar al fabricante. 
+Si el monto total de la compra excede de $500.000 la empresa tendrá 
+la  capacidad  de  invertir  de  su  propio  dinero  un  55%  del  monto  de  la 
+compra, pedir prestado al banco un 30% y el resto lo pagará 
+solicitando un crédito al fabricante. Si el monto total de la compra no 
+excede  de  $500.00  la  empresa  tendrá  capacidad  de  invertir  de  su 
+propio  dinero  un  70%  y  el  restante  30%  lo  pagará  solicitando  crédito 
+al  fabricante.  El  fabricante  cobra  por  concepto  de  interes  un  20% 
+sobre  la  cantidad  que  se  le  pague  a  crédito.    Obtener  la  cantidad  a 
+inverir, valor del préstamo, valor del crédito y los intereses. """
+"""
+monto=int(input("ingrese monto total de la compra "))
+if (monto>500000):
+    print ("ya que el monto excede los 500000")
+    print ("el valor invertir por la empresa es ", monto*0.55 )
+    print("el valor del prestamo es: ", monto*0.3)
+    print("el valor del credito es: ", monto*0.15)
+    print("el valor del interes es de: ", (monto*0.15)*0.2)
+if (monto<=500000):
+    print ("ya que el monto no excede los 500000")
+    print ("el valor invertir por la empresa es ", monto*0.7 )
+    print("el valor del prestamo es: 0")
+    print("el valor del credito es: ", monto*0.30)
+    print("el valor del interes es de: ", (monto*0.30)*0.2)"""

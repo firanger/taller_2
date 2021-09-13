@@ -51,3 +51,34 @@ if (fianza<50000):
     print("la  cuota  que  debe  pagar  al cliente es de: ", (fianza*0.3))
 if (fianza>=50000):
     print("la  cuota  que  debe  pagar  al cliente es de: ", (fianza*0.2))"""
+
+"""4. una fábrica ha sido sometida a un programa de control de 
+contaminación  para  lo  cual  se  efectúa  una  revisión  de  los  puntos  de 
+contaminación  generados  por  la  fábrica.  El  programa  de  control  de 
+contaminación  consiste  en  medir  los  puntos  que  emite  la  fábrica  en 
+cinco  días  de  una  semana  y  si  el  promedio  es  superior  a  los  170 
+puntos  entonces  tendrá  la  sanción  de  parar  su  producción  por  una 
+semana  y  una  multa  del  50%  de  las  ganancias  diarias  cuando  no  se 
+detiene la producción. Si el promedio obtenido de puntos es de 170 o 
+menos entonces no tendrá ni sanción ni multa. El dueño de la fábrica 
+desea  saber  cuanto  dinero  perderá  después  de  ser  sometido  a  la 
+revisión."""
+"""
+def promedio (a=[]):
+    i=0
+    promedioo=0
+    for i in range(len(a)):
+        promedioo+=a[i]
+    promedioo=promedioo/len(a)
+    return promedioo
+ganancias=int(input("ingrese las ganancias por dia "))
+lista=[]
+i=0
+for i in range(5):
+    print("ingrese los puntos del dia: ", (i+1))
+    lista.append(int(input()))
+print("el promedio es de: ", promedio(lista))
+if (promedio(lista)>170):
+    print("el promedio excede los 170 por lo tanto la multa es de: ", (ganancias*5)*0.5)
+if (promedio(lista)<=170):
+    print("el promedio no excede los 170 por lo tanto no merece multa")"""

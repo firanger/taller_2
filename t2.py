@@ -82,3 +82,18 @@ if (promedio(lista)>170):
     print("el promedio excede los 170 por lo tanto la multa es de: ", (ganancias*5)*0.5)
 if (promedio(lista)<=170):
     print("el promedio no excede los 170 por lo tanto no merece multa")"""
+
+"""5. Una persona se encuentra con un problema de comprar un automóvil 
+o  un  terreno,  los  cuales  cuestan  exactamente  lo  mismo.  Sabe  que 
+mientras  el  automóvil  se  devalúa,  con  el  terreno  sucede  lo  contrario. 
+Esta  persona  comprará  el  automóvil  si  al  cabo  de  tres  años  la 
+devaluación  de  este  no  es  mayor  que  la  mitad  del  incremento  del valor  del  terreno.  Ayúdale  a  esta  pesona  a  determinar  si  debe  o  no 
+comprar el automóvil. """
+"""
+precio=int(input("ingrese el precio del auto y del terreno "))
+devaluación=int(input("ingrese cuanto se devalua el auto en 3 años "))
+incremento=int(input("ingrese cuanto incrementa el precio del terreno cada 3 años "))
+if (devaluación<=(incremento*0.5)):
+    print("el hombre debe comprar el auto")
+if (devaluación>(incremento*0.5)):
+    print("el hombre debe comprar el terreno")"""

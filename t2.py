@@ -37,3 +37,17 @@ if (azar<74):
 if (azar>=74):
     print("el descuento es de: ", (compra*0.20))"""
 
+"""3. Una compañía de seguros está abriendo un departamento de 
+finanzas  y  estableció  un  programa  para  captar  clientes,  que  conssite 
+en lo siguiente: Si el monto por el que se efectúa la fianza es menor 
+que $50.000 la cuota a pagar será por el 3% del monto, y si el monto 
+es  mayor  que  $50.000  la  cuota  a  pagar  será  el  2%  del  monto.  La 
+afianzadora  desea  determinar  cual  será  la  cuota  que  debe  pagar  al 
+cliente."""
+"""
+fianza=int(input("ingrese el valor de la fianza "))
+
+if (fianza<50000):
+    print("la  cuota  que  debe  pagar  al cliente es de: ", (fianza*0.3))
+if (fianza>=50000):
+    print("la  cuota  que  debe  pagar  al cliente es de: ", (fianza*0.2))"""

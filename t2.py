@@ -157,3 +157,17 @@ if (monto<=500000):
     print("el valor del prestamo es: 0")
     print("el valor del credito es: ", monto*0.30)
     print("el valor del interes es de: ", (monto*0.30)*0.2)"""
+
+
+"""9. Leer  2  números;  si  son  iguales  que  lo  multiplique,  si  el  primero  es 
+mayor que el segundo que los reste y sino que los sume. """
+"""
+primer_numero=int(input("ingrese el numero 1 "))
+segundo_numero=int(input("ingrese el numero 2 "))
+
+if (primer_numero==segundo_numero):
+    print("los numeros son iguales, la multiplicacion es: ", primer_numero*segundo_numero)
+if(primer_numero>segundo_numero):
+    print("el primero es mayor que el segundo, la suma es: ", primer_numero+segundo_numero)
+if(primer_numero<segundo_numero):
+    print("el segundo es mayor que el primero, la resta es: ", segundo_numero-primer_numero)"""

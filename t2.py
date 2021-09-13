@@ -97,3 +97,20 @@ if (devaluación<=(incremento*0.5)):
     print("el hombre debe comprar el auto")
 if (devaluación>(incremento*0.5)):
     print("el hombre debe comprar el terreno")"""
+
+""" 6. En  una  fábrica  de  computadoras  se  planea  ofrecer  a  los  clientes  un 
+descuento que dependerá del número de computadoreas que 
+compre. Si las computadoras son menos de cinco se les dará un 10% 
+de descuento sobre el total de la compra; si el número de 
+computadoras  es  mayor  o  igual  a  cinco  pero  menos  de  diez  se  le 
+otorga un 20% de descuento; y si son 10 o más se les da un 40%. El 
+precio de cada computadora es de $11.000. """
+"""
+computadora=int(input("ingrese el numero de computadoras a comprar "))
+
+if (computadora<5):
+    print("el descuento es de: ", ((computadora*11000)*0.1), " y el valor total a pagar es: ", 11000-(computadora*0.1))
+if (computadora>=5 and computadora<10):
+    print("el descuento es de: ", ((computadora*11000)*0.2), " y el valor total a pagar es: ", 11000-(computadora*0.2))
+if (computadora>=10):
+    print("el descuento es de: ", ((computadora*11000)*0.4), " y el valor total a pagar es: ", 11000-(computadora*0.4))"""

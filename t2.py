@@ -114,3 +114,18 @@ if (computadora>=5 and computadora<10):
     print("el descuento es de: ", ((computadora*11000)*0.2), " y el valor total a pagar es: ", 11000-(computadora*0.2))
 if (computadora>=10):
     print("el descuento es de: ", ((computadora*11000)*0.4), " y el valor total a pagar es: ", 11000-(computadora*0.4))"""
+
+"""7. Un  proveedor  de  estéreos  ofrece  un  descuento  del  10%  sobre  el 
+precio sin IVA, de algún aparato si este cuesta $2000 o más. Además, 
+independientemente de esto, ofrece un 5% de descuento si la marca 
+es  NOSY.  Determinar  cuanto  pagará,  con  IVA  incluido,  un  cliente 
+cualquiera por la compra de su aparato. IVA es del 16%."""
+"""
+aparato=int(input("ingrese el precio del aparato "))
+marca=input("ingrese la marca del aparato ")
+
+if (aparato>=2000):
+    aparato=aparato-(aparato*0.1)
+if (marca=="NOSY" or marca=="nosy"):
+    aparato=aparato-(aparato*0.05)
+print("el total a pagar es de: ", aparato+(aparato*0.16))"""
